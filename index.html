@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=2">
+    <link rel="manifest" href="manifest.json">
+	<title>Want a book?</title>
+    
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="style.css">  
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- include an external JavaScript file -->
+    <script src="apiexample.js"></script>
+  </head>
+  
+  <body>
+  <div id="top">
+	<div id="book">
+		 <h1 id="title">Search up any book</h1>
+		 <div class="find">
+			 <input type="text" id="search" >
+			 <button id="button" onclick="searchBook()" >Look Up a Book</button>
+		 </div>
+	 </div>
+	
+	 <div id="category">
+		 <h1 id="title2">Search up any category</h1>
+		 <div class="find">
+			 <input type="text" id="search2" >
+			 <button id="button" onclick="searchSubject()" >Look Up Category</button>
+		 </div>
+	 </div>
+</div>
+     <div id="main">
+     
+     </div>
+     <div id="lightbox">
+      <div id="message">Message</div>
+    </div>
+    
+     <br><br>
+    
+     
+  
+  </body>
+  
+</html>
